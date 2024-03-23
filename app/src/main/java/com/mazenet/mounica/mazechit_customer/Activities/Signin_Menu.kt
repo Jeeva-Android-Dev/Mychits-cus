@@ -11,6 +11,7 @@ class Signin_Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin__menu)
+        //signin menu
         img_menuimage.setImageDrawable(resources.getDrawable(R.drawable.mychitsvc1))
         btn_menu_signin.setOnClickListener {
             val i = Intent(this, login::class.java)
